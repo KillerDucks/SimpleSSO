@@ -1,0 +1,12 @@
+.SSO {
+    background:    #d5a6bd;
+    background:    -webkit-linear-gradient(#d5a6bd, #a64d79);
+    background:    linear-gradient(#d5a6bd, #a64d79);
+    border-radius: 5px;
+    padding:       8px 20px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 700 24px/1 "Calibri", sans-serif;
+    text-align:    center;
+    text-shadow:   none;
+}

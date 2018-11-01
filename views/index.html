@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Web Frontend</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- SSO Button -->
+    <link rel="stylesheet" href="/css/SSO-Button.css">
+  </head>
+  <body>
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+              <h1 class="display-3">SSO Testing Page</h1>
+              <p class="lead changeUser">You shouldn't be here.......</p>
+              <hr class="my-2">
+          </div>
+      </div>
+      <div class="container">
+          <div class="form-group">
+            <label for="csn">Client Service Name</label>
+            <input type="text" name="" placeholder="Bindserver" id="csn" class="form-control" placeholder="" aria-describedby="helpId">
+            <label for="csn">Client Service Type</label>
+            <input type="text" name="" placeholder="auth" id="cst" class="form-control" placeholder="" aria-describedby="helpId">
+          </div>
+        <button onclick="openWin()" class="SSO">TridentX SSO</button>
+        <hr class="my-2">
+        <br>
+        
+        <table class="table table-hover table-responsive">
+          <thead class="thead-inverse" style="text-align:center;">
+            <tr>
+              <th>Service</th>
+              <th>Authorized</th>
+              <th>Type</th>
+              <th>Scope</th>
+            </tr>
+            </thead>
+            <tbody style="text-align:center;">
+              <tr>
+                <td scope="row">bindserver.com</td>
+                <td>✅</td>
+                <td>Authorize, Verify</td>
+                <td>Users</td>
+              </tr>
+              <tr>
+                <td scope="row">api.bindserver.com</td>
+                <td>✅</td>
+                <td>Authorize, Verify</td>
+                <td>Users, Apps</td>
+              </tr>
+              <tr>
+                <td scope="row">gs1.bindserver.com</td>
+                <td>⚠️</td>
+                <td>Verify</td>
+                <td>Users</td>
+              </tr>
+              <tr>
+                <td scope="row">activate.bindserver.com</td>
+                <td>✅</td>
+                <td>Authorize, Verify</td>
+                <td>Users</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script src="/js/window.js"></script>
+  </body>
+</html>
